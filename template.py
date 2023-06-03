@@ -44,4 +44,9 @@ for filepath in list_of_files:
     
     else:
         logging.info(f"File {filepath} already exists")
-    
+
+
+#After creating the folder structure we have to set up our virtual environment
+#This is recommended to be done before doing any project setup
+#Create the virtual environment: conda create -n SumText python=3.8 -y
+#Activate the virtual environment: conda activate SumText
